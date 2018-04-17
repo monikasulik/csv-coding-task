@@ -3,14 +3,6 @@ from io import StringIO
 from .. import Parser
 
 
-def test_if_more_than_2_lines_raise_exc():
-    pass  # TODO
-
-
-def test_if_description_column_not_present_raise_exc():
-    pass  # TODO
-
-
 def test_handles_monday():
     parser = Parser(StringIO('mon,description\n5,desc'))
 

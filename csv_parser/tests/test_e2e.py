@@ -4,7 +4,7 @@ from .. import Parser
 
 
 CSV_FILE_DIR = os.path.join(
-    os.path.dirname( __file__ ), os.pardir, 'data')
+    os.path.dirname(__file__), os.pardir, 'data')
 
 
 def test_csv_1():
